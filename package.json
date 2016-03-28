@@ -1,0 +1,30 @@
+{
+  "name": "starship-bridge-simulator-receiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client/app/index.html",
+  "scripts": {
+    "test": "NODE_ENV=test && exit 1",
+    "start": "node node_modules/.bin/webpack-dev-server --content-base client",
+    "build": "NODE_ENV=production node node_modules/.bin/webpack"
+  },
+  "author": "John Chappell",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "css-loader": "^0.23.1",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-mocha": "^0.2.2",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
+    "raw-loader": "^0.5.1",
+    "ts-loader": "^0.8.1",
+    "tsd": "^0.6.5",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.9",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
